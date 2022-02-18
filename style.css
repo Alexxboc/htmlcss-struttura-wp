@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 1400px;
+    background-color: red;
+    margin: auto;
+}
+
+#top_header {
+    height: 100px;
+    background-color: yellow;
+}
