@@ -14,3 +14,14 @@ body {
     height: 100px;
     background-color: yellow;
 }
+
+#top_nav {
+    height: 60px;
+    background-color: rgb(241, 241, 147);
+    margin-bottom: 10px;
+}
+
+.banner {
+    height: 400px;
+    background-color: fuchsia;
+}
