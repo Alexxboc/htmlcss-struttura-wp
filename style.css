@@ -6,7 +6,6 @@
 
 body {
     width: 1400px;
-    background-color: red;
     margin: auto;
 }
 
@@ -15,13 +14,46 @@ body {
     background-color: yellow;
 }
 
-#top_nav {
+#top_nav, #site_footer {
     height: 60px;
     background-color: rgb(241, 241, 147);
-    margin-bottom: 10px;
+    
 }
 
 .banner {
     height: 400px;
     background-color: fuchsia;
+}
+
+.title_row {
+    height: 100px;
+    background-color: green;
+    margin: 10px 0;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.aside, .main_section {
+    float:left;
+    
+}
+
+.aside {
+    height: 600px;
+    width: 20%;
+    background-color: aqua;
+}
+
+.main_section {
+    height: 600px;
+    width: 58%;
+    background-color:red;
+    margin: 0 1%;
+    
 }
